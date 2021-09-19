@@ -17,7 +17,7 @@
                     <img class="logo-img" src="./img/logo.png" alt="Logo restaurent">
                 </a>
             </div>
-            <div class="menu">
+            <div class="menu text-right">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="/categories">Categories</a></li>
