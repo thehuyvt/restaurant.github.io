@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.style-content{
+    opacity: 0.8;
+    font-weight: 700;
+    padding-top: 48px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.style-btn{
+    background-color: #ff6b81;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    padding: 1.1%;
+    cursor: pointer;
+}
+
+.style-btn:hover{
+    background-color: #ff4757;
+}
+
+/* navbar  */
+
+#header{
+    width: 80%;
+    height: 64px;
+    margin: 0 auto;
+}
+/* .navbar{
+    width: 70%;
+    height: 64px;
+    margin: 0 auto;
+} */
+
+.logo{
+    width: 12%;
+    height: 100%;
+    float: left;
+}
+.logo-img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.menu{
+    line-height: 64px;
+}
+
+.menu ul li{
+    display: inline-block;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #ff6b81;
+    padding: 16px;
+    font-weight:bold;
+}
+
+.menu li:hover a{
+    color:#ff4757;
+}
+
+/* food search */
+
+
+/* #search-btn{
+ 
+} */
+
+/* #search-btn:hover{
+    background-color: #ff4757;
+} */
+
+
+
+/* Categories line 46 */
+.categories {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2% 2%;
+}
+
+.list-foods{
+    padding: 1%;
+}
+
+.food-category{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.food-img{
+    border-radius: 20px;
+    width: 90%;
+    opacity: 0.85;
+}
+
+.food-category:hover .food-img{
+    opacity: 1;
+}
+
+.food-name{
+    position: relative;
+    bottom: 40px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+/* food menu */
+
+/* social */
+.social-icon{
+    width: 100%;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.social-icon a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px;
+    color: rgb(75, 73, 73);
+    opacity: 0.85;
+}
+
+.facebook-icon , 
+.twitter-icon{
+    color: #0099ff;
+}
+
+.instagram-icon{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249F 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249F 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.social-icon a:hover{
+    opacity: 1;
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.footer a{
+    text-decoration: none;
+    color: #ff6b81;
+}
+
+.footer a:hover,
+.footer-menu:hover{
+    color: #ff4757;
+}
